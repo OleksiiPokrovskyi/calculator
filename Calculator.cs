@@ -5,11 +5,11 @@ namespace MyCalculator
 {
     using System;
     public class Calculator : ICalculator {
-        public int Add (int a, int b) {
+        public double Add (double a, double b) {
             return a + b;
         }
 
-        public int Sub (int a, int b) {
+        public double Sub (double a, double b) {
             return Add (a, -b);
         }
     }
